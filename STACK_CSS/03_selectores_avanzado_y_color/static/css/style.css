@@ -1,0 +1,69 @@
+* { /* Selector comodin (Selecciona todos los ejemplos html) */
+/* outline: 1px  solid dashed crimson; */
+/* Linea externa de 2px */
+margin: 0; /* Formatea espacios externos de elementos html */
+padding: 0; /* formatea espacios internos de elementos html */
+box-sizing: border-box; /* Considera bordes dentro de tamaño de elementos html */
+}
+body{
+    padding:40px;
+}
+h1 {
+color: rebeccapurple;
+}
+
+.green {
+color: mediumseagreen;
+}
+
+#red {
+color: tomato;
+}
+
+.quote p {
+color: darkslategray;
+font-style: italic;
+}
+.quote h4 {
+color:rgb(34, 228, 228);
+font-weight: bold; /* Negrita*/
+}
+.header > img { /* Solo afecta a los elementos hijos directos (>) */
+height: 50px; /* Altura de imagen */
+}
+#container p { /* Seleccion de parrafo dentro de Contenedor (#) */
+font-size: 16px; /* Tamño de letra */
+background-color: #444; /* Color de fondo */
+color: white; /* Color de letra */
+}
+
+#container p.highlight {
+font-weight: bold;
+color: gold;
+}
+input[type="text"] { /* Seleccion de elementos a través de su propiedad [type="text"] */
+border: 2px solid royalblue;
+padding: 3px;
+}
+form{
+padding: 20px;
+}
+input[type="submit"] {
+color: white;
+background-color: mediumvioletred;
+border: none; /* Quita los bordes por defecto */
+padding: 5px 20px;
+cursor: poninter; /* Manito para realizar click */
+}
+.color_nombre{
+color:green(1, 253, 98);
+background-color: azure;
+}
+.color_rgb{
+color:lightskyblue;
+background-color: antiquewhite;
+}
+.color_hex{
+color:khaki;
+background-color: aquamarine;
+}
