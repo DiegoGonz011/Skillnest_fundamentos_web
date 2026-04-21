@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 40px;
+    outline: solid 1px blue;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.contairenr{
+    padding: 20px;
+}
+
+.textoizquierda {
+    text-align: left;
+}
+
+.textocentro {
+    text-align: center;
+}
+    .textoderecha {
+        text-align: right;
+    }
+
+    .subtitulo {
+   text-decoration: underline;  /* Subrayado */
+   font-style: italic;  /* Cursiva */
+}
+
+.tachado {
+   text-decoration: line-through;  /* Texto tachado */
+}
+
+.sinDecoracion {
+    color: dimgrey;
+   text-decoration: none;  /* Sin decoración */
+}
+
+.negrita {
+   font-weight: bold;  /* Negrita */
+}
+
+.seminegrita {
+   font-weight: 300;  /* Fuente más delgada */
+}
