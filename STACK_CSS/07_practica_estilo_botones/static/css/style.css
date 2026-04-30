@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: solid 1px red;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.buscar{
+    padding: 30px;
+    background-color: #D3D3D3;
+}
+
+.anadir {
+    padding: 20px 15px;
+    padding: 30px;
+    background-color: #F8A504;
+    font-size: 20px;
+}
+
+.crear{
+    padding: 30px;
+    padding: 5px 25px;
+    background-color: #3590FF;
+    border: solid 2px black;
+    border-radius: 15px;
+}
