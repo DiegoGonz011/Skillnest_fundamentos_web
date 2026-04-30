@@ -1,0 +1,3 @@
+#ignorar las siguientes carpetas
+.git/ 
+.vscode/
