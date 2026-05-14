@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    /* Activa flexbox en este contenedor */
+    justify-content: center; /*alinea horizontalmente*/
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.item {
+    background-color: #00ade5;
+    color: #fff;
+    margin: 20px;
+    padding: 20px;
+}

@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.header{
+    background-color: #208614;
+    color: white;
+    padding: 35px;
+    margin: 35px;
+    font-size: x-large;
+}
+
+.gris{
+    background-color: #DAD8D8;
+}
+
+.CajaA{
+    display: inline-block;
+    text-align: left;
+    padding: 100px;
+    margin: 10px;
+    background-color: #FEF306;
+}
+
+.rojo{
+    padding: 20px;
+    margin: 20px;
+    margin-left: 120px;
+    background-color: #E31D12;
+}
