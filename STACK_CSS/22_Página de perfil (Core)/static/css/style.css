@@ -9,7 +9,7 @@ body {
     background-color: #e9ecef;
 }
 
-/* HEADER */
+
 .header {
     background-color: #2f4358;
     height: 70px;
@@ -24,7 +24,7 @@ body {
     align-items: center;
 }
 
-/* CONTENEDOR PRINCIPAL */
+
 .contenedor-principal {
     width: 80%;
     margin: 40px auto;
@@ -32,7 +32,7 @@ body {
     gap: 30px;
 }
 
-/* COLUMNA IZQUIERDA */
+
 .columna-izquierda {
     flex: 2;
 }
@@ -84,7 +84,7 @@ body {
     text-decoration: underline;
 }
 
-/* COLUMNA DERECHA */
+
 .columna-derecha {
     flex: 1;
     display: flex;
@@ -111,7 +111,7 @@ body {
     border-bottom: none;
 }
 
-/* HOVERS */
+
 .tarjeta-perfil:hover {
     transform: translateY(-2px);
     transition: 0.2s;
@@ -122,7 +122,7 @@ body {
     transition: 0.2s;
 }
 
-/* RESPONSIVE SIMPLE */
+
 @media (max-width: 768px) {
     .contenedor-principal {
         flex-direction: column;
