@@ -121,15 +121,3 @@ body {
     transform: translateY(-2px);
     transition: 0.2s;
 }
-
-
-@media (max-width: 768px) {
-    .contenedor-principal {
-        flex-direction: column;
-    }
-
-    .columna-izquierda,
-    .columna-derecha {
-        width: 100%;
-    }
-}
