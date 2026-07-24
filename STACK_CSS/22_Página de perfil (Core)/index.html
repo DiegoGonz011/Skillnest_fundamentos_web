@@ -1,51 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="static/css/style.css">
     <title>Perfil</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
 </head>
 
 <body>
-    <header class="header">
-        <nav class="nav">
-            Perfil
+
+    <header>
+        <div class="logo">Perfil</div>
+        <nav>
+            <a href="#"><i class="bi bi-house"></i>Inicio</a>
+            <a href="#"><i class="bi bi-person"></i>Mi perfil</a>
+            <a href="#"><i class="bi bi-people"></i>Conexiones</a>
+            <button class="btn-logout"><i class="bi bi-box-arrow-right"></i>Cerrar sesión</button>
         </nav>
     </header>
-    <main class="contenedor-principal">
-        <section class="columna-izquierda">
-            <div class="tarjeta-perfil">
-                <div class="superior-tarjeta"></div>
-                <div class="descripcion-tarjeta">
-                    <img src="static/images/user-icon.png" alt="Foto de perfil" class="foto-perfil">
-                    <h1>Jane Doe</h1>
-                    Bergen, Noruega
-                    <br><br>
-                    Desarrolladora Frontend
-                    <br>
-                    Conocimientos en HTML, CSS y JavaScript
-                    <br><br>
-                    Editar perfil
+
+    <main>
+        <section class="profile-card">
+            <div class="cover-photo">
+                <div class="avatar-wrap">
+                    <i class="bi bi-person-fill"></i>
                 </div>
             </div>
-        </section>
-        <section class="columna-derecha">
-            <div class="tarjeta-conexiones">
-                <div class="row">Solicitudes de conexión</div>
-                <div class="row">Steve Jobs</div>
-                <div class="row">Bill Gates</div>
-                <div class="row">Ver todas</div>
-            </div>
-            <div class="tarjeta-conexiones">
-                <div class="row">Tus conexiones</div>
-                <div class="row">Richard Stallman</div>
-                <div class="row">Linus Torvalds</div>
-                <div class="row">Ada Lovelace</div>
-                <div class="row">Grace Hopper</div>
+            <div class="profile-info">
+                <h1>Jane Doe</h1>
+                <p class="location">Bergen, Noruega</p>
+                <p class="bio">
+                    Desarrolladora Frontend<br>
+                    Conocimientos en HTML, CSS, JavaScript
+                </p>
+                <a href="#" class="edit-link"><i class="bi bi-gear-fill"></i> Editar perfil</a>
             </div>
         </section>
+
+        <aside>
+            <div class="panel">
+                <div class="panel-header">
+                    <h2>Solicitudes de conexión</h2>
+                    <button class="btn-outline">Ver todas</button>
+                </div>
+                <div class="person-row">
+                    <div class="person-avatar"><i class="bi bi-person-fill"></i></div>
+                    <div class="person-name">Steve Jobs</div>
+                    <div class="actions">
+                        <button class="icon-btn accept"><i class="bi bi-check-lg"></i></button>
+                        <button class="icon-btn decline"><i class="bi bi-x-lg"></i></button>
+                    </div>
+                </div>
+                <div class="person-row">
+                    <div class="person-avatar"><i class="bi bi-person-fill"></i></div>
+                    <div class="person-name">Bill Gates</div>
+                    <div class="actions">
+                        <button class="icon-btn accept"><i class="bi bi-check-lg"></i></button>
+                        <button class="icon-btn decline"><i class="bi bi-x-lg"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel">
+                <div class="panel-header">
+                    <h2>Tus conexiones</h2>
+                    <button class="btn-outline">Ver todas</button>
+                </div>
+                <div class="person-row">
+                    <div class="person-avatar"><i class="bi bi-person-fill"></i></div>
+                    <div class="person-name">Richard Stallman</div>
+                </div>
+                <div class="person-row">
+                    <div class="person-avatar"><i class="bi bi-person-fill"></i></div>
+                    <div class="person-name">Linus Torvalds</div>
+                </div>
+                <div class="person-row">
+                    <div class="person-avatar"><i class="bi bi-person-fill"></i></div>
+                    <div class="person-name">Ada Lovelace</div>
+                </div>
+                <div class="person-row">
+                    <div class="person-avatar"><i class="bi bi-person-fill"></i></div>
+                    <div class="person-name">Grace Hopper</div>
+                </div>
+            </div>
+        </aside>
     </main>
 
 </body>
