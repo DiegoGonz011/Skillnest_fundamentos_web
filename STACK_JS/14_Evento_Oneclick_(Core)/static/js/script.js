@@ -23,3 +23,13 @@ likeButtons.forEach(function(button) {
         button.innerText = currentLikes + ' Me gusta';
     });
 });
+
+const btnLogin = document.querySelector('.btn-login');
+
+btnLogin.addEventListener('click', function() {
+    if (btnLogin.innerText === 'Iniciar sesión') {
+        btnLogin.innerText = 'Cerrar sesión';
+    } else {
+        btnLogin.innerText = 'Iniciar sesión';
+    }
+});
