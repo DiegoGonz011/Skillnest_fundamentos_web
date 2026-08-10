@@ -13,20 +13,13 @@ boton1.addEventListener("click", function () {
     }
 });
 
-boton2.addEventListener("click", function () {
-    // Cambia el texto del botón usando `this`
-    if (this.innerText === "Haz clic en mí") {
-        this.innerText = "Weno dia";
-    } else {
-        this.innerText = "Haz clic en mí"
-    }
-});
+// Seleccionamos todas las imágenes con la clase 'imagenEliminar'
+let imagenes = document.querySelectorAll(".imagenEliminar");
 
-boton3.addEventListener("click", function () {
-    // Cambia el texto del botón usando `this`
-    if (this.innerText === "Haz clic en mí") {
-        this.innerText = "Adio";
-    } else {
-        this.innerText = "Haz clic en mí"
-    }
+// Agregamos un evento 'click' a cada imagen
+imagenes.forEach(function (imagen) {
+   imagen.addEventListener("click", function () {
+       // Eliminamos la imagen al hacer clic
+       this.remove();
+   });
 });
