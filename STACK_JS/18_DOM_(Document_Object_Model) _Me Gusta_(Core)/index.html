@@ -4,60 +4,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Diego Gonzalaz">
+    <meta name="author" content="Diego González">
     <title>Social Like</title>
     <link rel="stylesheet" href="static/css/style.css">
 </head>
+
 <body>
-    <div class="navbar">
+    <div class="navBar">
         <h1>Social Like</h1>
     </div>
 
     <div class="container">
-        <div class="profile-card">
-            <img src="static/images/images.jpg" alt="Perfil">
+
+        <div class="fotoDePerfil">
+            <img src="static/images/images.jpg" alt="Foto de perfil">
             <h2>Subaru</h2>
-            <button class="btn-profile">Mi perfil</button>
+            <button class="perfil">Mi perfil</button>
         </div>
 
-        <div class="feed">
+        <div class="principal">
             <h2>Últimas publicaciones</h2>
 
-            <div class="post">
-                <div class="post-header">
+            <div class="publicaciones">
+                <div class="publicaciones2">
                     <h3>Meili</h3>
-                    <div>
+                    <div class="likes-wrapper">
                         <span id="likes-1">0</span> like(s)
-                        <button class="btn-like" onclick="sumarLike('#likes-1')">Like</button>
+                        <button class="botonLike" onclick="sumarLike('#likes-1')">Like</button>
                     </div>
                 </div>
-                <p>Dome una nueva <a href="#">Mabestia</a>, que opinan ustedes.</p>
+                <p>Domé una nueva <a href="#">Mabestia</a>, ¿qué opinan ustedes?</p>
             </div>
 
-            <div class="post">
-                <div class="post-header">
+            <div class="publicaciones">
+                <div class="publicaciones2">
                     <h3>Otto</h3>
-                    <div>
+                    <div class="likes-wrapper">
                         <span id="likes-2">0</span> like(s)
-                        <button class="btn-like" onclick="sumarLike('#likes-2')">Like</button>
+                        <button class="botonLike" onclick="sumarLike('#likes-2')">Like</button>
                     </div>
                 </div>
-                <p>Acabo de vender <a href="#">aceite</a>. Comprenme.</p>
+                <p>Acabo de vender <a href="#">aceite</a>. Cómprenme.</p>
             </div>
 
-            <div class="post">
-                <div class="post-header">
+            <div class="publicaciones">
+                <div class="publicaciones2">
                     <h3>Julius</h3>
-                    <div>
+                    <div class="likes-wrapper">
                         <span id="likes-3">0</span> like(s)
-                        <button class="btn-like" onclick="sumarLike('#likes-3')">Like</button>
+                        <button class="botonLike" onclick="sumarLike('#likes-3')">Like</button>
                     </div>
                 </div>
-                <p>Acabo de derrotar a <a href="#">Reid Astrea</a>. Den like</p>
+                <p>Acabo de derrotar a <a href="#">Reid Astrea</a>. Den like.</p>
             </div>
         </div>
+
     </div>
 
     <script src="static/js/script.js"></script>
 </body>
+
 </html>
