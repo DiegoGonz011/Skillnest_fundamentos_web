@@ -2,29 +2,33 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    outline: solid 1px red;
 }
-
-.titulo{
+.titulo {
     text-align: center;
-}
-
-.buscar{
     padding: 30px;
-    background-color: #D3D3D3;
 }
-
-.anadir {
-    padding: 20px 15px;
-    padding: 30px;
-    background-color: #F8A504;
-    font-size: 20px;
-}
-
-.crear{
-    padding: 30px;
+.buscar {
+    margin:auto;
     padding: 5px 25px;
-    background-color: #3590FF;
     border: solid 2px black;
-    border-radius: 15px;
+   border-radius: 15px;
+   display: block;
+   margin-bottom: 10px;
+}
+.anadir {
+    margin: auto;
+    display: block;
+    background-color: orange;
+    padding: 10px 15px;
+   border-radius: 50px;
+   margin-bottom: 10px;
+}
+.crear {
+    margin: auto;
+    display: block;
+    padding: 10px 25px;
+    border: none;
+    background-color: blue;
+    color:white;
+    box-shadow: 8px 8px 8px black;
 }
